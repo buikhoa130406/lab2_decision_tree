@@ -1,0 +1,6 @@
+{
+  "model": "Balanced class weights",
+  "selection_rule": "Highest mean 5-fold CV F1 for yes on training data",
+  "cv_f1_yes": 0.4163322496066442,
+  "dataset": "Bank Marketing"
+}

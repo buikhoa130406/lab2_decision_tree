@@ -1,0 +1,13 @@
+{
+  "train_samples": 36156,
+  "test_samples": 9039,
+  "test_size": 0.2,
+  "train_class_counts": {
+    "0": 31925,
+    "1": 4231
+  },
+  "test_class_counts": {
+    "0": 7981,
+    "1": 1058
+  }
+}

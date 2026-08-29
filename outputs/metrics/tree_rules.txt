@@ -1,0 +1,813 @@
+===== Baseline =====
+|--- poutcome_success <= 0.50
+|   |--- age <= 60.50
+|   |   |--- contact_unknown <= 0.50
+|   |   |   |--- month_jun <= 0.50
+|   |   |   |   |--- month_mar <= 0.50
+|   |   |   |   |   |--- month_oct <= 0.50
+|   |   |   |   |   |   |--- month_sep <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 39
+|   |   |   |   |   |   |--- month_sep >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |--- month_oct >  0.50
+|   |   |   |   |   |   |--- day <= 20.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |--- day >  20.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |--- month_mar >  0.50
+|   |   |   |   |   |--- campaign <= 5.50
+|   |   |   |   |   |   |--- day <= 23.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |--- day >  23.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |--- campaign >  5.50
+|   |   |   |   |   |   |--- marital_divorced <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- marital_divorced >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- month_jun >  0.50
+|   |   |   |   |--- age <= 24.50
+|   |   |   |   |   |--- job_housemaid <= 0.50
+|   |   |   |   |   |   |--- balance <= 58.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- balance >  58.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- job_housemaid >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- age >  24.50
+|   |   |   |   |   |--- day <= 3.50
+|   |   |   |   |   |   |--- job_blue-collar <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |--- job_blue-collar >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- day >  3.50
+|   |   |   |   |   |   |--- day <= 10.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |--- day >  10.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |--- contact_unknown >  0.50
+|   |   |   |--- month_apr <= 0.50
+|   |   |   |   |--- month_oct <= 0.50
+|   |   |   |   |   |--- marital_married <= 0.50
+|   |   |   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 30
+|   |   |   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- marital_married >  0.50
+|   |   |   |   |   |   |--- previous <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |--- previous >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- month_oct >  0.50
+|   |   |   |   |   |--- day <= 19.00
+|   |   |   |   |   |   |--- job_self-employed <= 0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- job_self-employed >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- day >  19.00
+|   |   |   |   |   |   |--- age <= 52.00
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- age >  52.00
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- month_apr >  0.50
+|   |   |   |   |--- age <= 25.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- age >  25.50
+|   |   |   |   |   |--- class: 1
+|   |--- age >  60.50
+|   |   |--- marital_divorced <= 0.50
+|   |   |   |--- balance <= 174.00
+|   |   |   |   |--- job_self-employed <= 0.50
+|   |   |   |   |   |--- day <= 29.50
+|   |   |   |   |   |   |--- day <= 5.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- day >  5.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |--- day >  29.50
+|   |   |   |   |   |   |--- job_unemployed <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- job_unemployed >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- job_self-employed >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- balance >  174.00
+|   |   |   |   |--- balance <= 215.50
+|   |   |   |   |   |--- contact_unknown <= 0.50
+|   |   |   |   |   |   |--- previous <= 8.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- previous >  8.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- contact_unknown >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- balance >  215.50
+|   |   |   |   |   |--- month_aug <= 0.50
+|   |   |   |   |   |   |--- age <= 72.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |--- age >  72.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |--- month_aug >  0.50
+|   |   |   |   |   |   |--- housing_yes <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |--- housing_yes >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- marital_divorced >  0.50
+|   |   |   |--- pdays <= 70.50
+|   |   |   |   |--- age <= 83.50
+|   |   |   |   |   |--- age <= 79.50
+|   |   |   |   |   |   |--- day <= 7.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- day >  7.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |--- age >  79.50
+|   |   |   |   |   |   |--- education_primary <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- education_primary >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- age >  83.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- pdays >  70.50
+|   |   |   |   |--- day <= 13.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- day >  13.50
+|   |   |   |   |   |--- balance <= 3251.50
+|   |   |   |   |   |   |--- pdays <= 192.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- pdays >  192.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- balance >  3251.50
+|   |   |   |   |   |   |--- month_apr <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- month_apr >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|--- poutcome_success >  0.50
+|   |--- housing_no <= 0.50
+|   |   |--- age <= 59.50
+|   |   |   |--- month_sep <= 0.50
+|   |   |   |   |--- campaign <= 4.50
+|   |   |   |   |   |--- pdays <= 83.00
+|   |   |   |   |   |   |--- age <= 43.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |--- age >  43.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- pdays >  83.00
+|   |   |   |   |   |   |--- pdays <= 94.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- pdays >  94.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- campaign >  4.50
+|   |   |   |   |   |--- balance <= 5099.00
+|   |   |   |   |   |   |--- pdays <= 329.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- pdays >  329.00
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- balance >  5099.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- month_sep >  0.50
+|   |   |   |   |--- contact_cellular <= 0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- contact_cellular >  0.50
+|   |   |   |   |   |--- age <= 25.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- age >  25.50
+|   |   |   |   |   |   |--- campaign <= 3.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- campaign >  3.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- age >  59.50
+|   |   |   |--- balance <= 5870.00
+|   |   |   |   |--- class: 1
+|   |   |   |--- balance >  5870.00
+|   |   |   |   |--- class: 0
+|   |--- housing_no >  0.50
+|   |   |--- pdays <= 177.50
+|   |   |   |--- pdays <= 98.50
+|   |   |   |   |--- campaign <= 4.50
+|   |   |   |   |   |--- pdays <= 86.50
+|   |   |   |   |   |   |--- balance <= 5735.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |--- balance >  5735.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- pdays >  86.50
+|   |   |   |   |   |   |--- previous <= 1.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |--- previous >  1.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |--- campaign >  4.50
+|   |   |   |   |   |--- balance <= 553.00
+|   |   |   |   |   |   |--- pdays <= 86.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- pdays >  86.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- balance >  553.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- pdays >  98.50
+|   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |--- pdays <= 112.50
+|   |   |   |   |   |   |--- month_sep <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |--- month_sep >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- pdays >  112.50
+|   |   |   |   |   |   |--- job_self-employed <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- job_self-employed >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |--- balance <= 2111.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- balance >  2111.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- pdays >  177.50
+|   |   |   |--- pdays <= 184.50
+|   |   |   |   |--- month_feb <= 0.50
+|   |   |   |   |   |--- month_jan <= 0.50
+|   |   |   |   |   |   |--- campaign <= 6.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |--- campaign >  6.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- month_jan >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- month_feb >  0.50
+|   |   |   |   |   |--- job_admin. <= 0.50
+|   |   |   |   |   |   |--- balance <= 2584.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- balance >  2584.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- job_admin. >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- pdays >  184.50
+|   |   |   |   |--- previous <= 11.50
+|   |   |   |   |   |--- job_entrepreneur <= 0.50
+|   |   |   |   |   |   |--- pdays <= 207.00
+|   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |--- pdays >  207.00
+|   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |--- job_entrepreneur >  0.50
+|   |   |   |   |   |   |--- age <= 53.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  53.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- previous >  11.50
+|   |   |   |   |   |--- class: 0
+
+===== Controlled complexity =====
+|--- poutcome_success <= 0.50
+|   |--- contact_unknown <= 0.50
+|   |   |--- housing_no <= 0.50
+|   |   |   |--- month_jun <= 0.50
+|   |   |   |   |--- month_oct <= 0.50
+|   |   |   |   |   |--- month_mar <= 0.50
+|   |   |   |   |   |   |--- pdays <= 374.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 43
+|   |   |   |   |   |   |--- pdays >  374.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- month_mar >  0.50
+|   |   |   |   |   |   |--- balance <= -17.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- balance >  -17.00
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- month_oct >  0.50
+|   |   |   |   |   |--- previous <= 5.50
+|   |   |   |   |   |   |--- contact_cellular <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- contact_cellular >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- previous >  5.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- month_jun >  0.50
+|   |   |   |   |--- age <= 27.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- age >  27.00
+|   |   |   |   |   |--- previous <= 2.50
+|   |   |   |   |   |   |--- balance <= -264.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- balance >  -264.00
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- previous >  2.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- housing_no >  0.50
+|   |   |   |--- month_aug <= 0.50
+|   |   |   |   |--- month_jul <= 0.50
+|   |   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |   |--- month_jan <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 39
+|   |   |   |   |   |   |--- month_jan >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |   |--- day <= 16.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |--- day >  16.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 23
+|   |   |   |   |--- month_jul >  0.50
+|   |   |   |   |   |--- pdays <= 86.00
+|   |   |   |   |   |   |--- day <= 3.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- day >  3.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 27
+|   |   |   |   |   |--- pdays >  86.00
+|   |   |   |   |   |   |--- day <= 2.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- day >  2.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- month_aug >  0.50
+|   |   |   |   |--- campaign <= 1.50
+|   |   |   |   |   |--- pdays <= 121.50
+|   |   |   |   |   |   |--- balance <= 9017.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |--- balance >  9017.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- pdays >  121.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- campaign >  1.50
+|   |   |   |   |   |--- day <= 18.50
+|   |   |   |   |   |   |--- pdays <= 369.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |--- pdays >  369.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- day >  18.50
+|   |   |   |   |   |   |--- pdays <= 87.00
+|   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |--- pdays >  87.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |--- contact_unknown >  0.50
+|   |   |--- marital_married <= 0.50
+|   |   |   |--- day <= 29.50
+|   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |--- month_apr <= 0.50
+|   |   |   |   |   |   |--- balance <= 3166.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |--- balance >  3166.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |--- month_apr >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- day >  29.50
+|   |   |   |   |--- balance <= 5600.00
+|   |   |   |   |   |--- balance <= -9.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- balance >  -9.50
+|   |   |   |   |   |   |--- month_mar <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |--- month_mar >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- balance >  5600.00
+|   |   |   |   |   |--- class: 1
+|   |   |--- marital_married >  0.50
+|   |   |   |--- month_oct <= 0.50
+|   |   |   |   |--- month_apr <= 0.50
+|   |   |   |   |   |--- month_may <= 0.50
+|   |   |   |   |   |   |--- age <= 33.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |--- age >  33.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 28
+|   |   |   |   |   |--- month_may >  0.50
+|   |   |   |   |   |   |--- balance <= 44.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |--- balance >  44.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 35
+|   |   |   |   |--- month_apr >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- month_oct >  0.50
+|   |   |   |   |--- class: 0
+|--- poutcome_success >  0.50
+|   |--- housing_yes <= 0.50
+|   |   |--- pdays <= 177.50
+|   |   |   |--- pdays <= 98.50
+|   |   |   |   |--- campaign <= 4.50
+|   |   |   |   |   |--- pdays <= 86.50
+|   |   |   |   |   |   |--- balance <= 5735.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- balance >  5735.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- pdays >  86.50
+|   |   |   |   |   |   |--- previous <= 1.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- previous >  1.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- campaign >  4.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- pdays >  98.50
+|   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |--- pdays <= 112.50
+|   |   |   |   |   |   |--- pdays <= 107.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- pdays >  107.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- pdays >  112.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |--- class: 0
+|   |   |--- pdays >  177.50
+|   |   |   |--- pdays <= 184.50
+|   |   |   |   |--- month_feb <= 0.50
+|   |   |   |   |   |--- job_management <= 0.50
+|   |   |   |   |   |   |--- balance <= 150.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- balance >  150.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |--- job_management >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- month_feb >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- pdays >  184.50
+|   |   |   |   |--- previous <= 11.50
+|   |   |   |   |   |--- age <= 23.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  23.50
+|   |   |   |   |   |   |--- previous <= 7.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |--- previous >  7.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- previous >  11.50
+|   |   |   |   |   |--- class: 0
+|   |--- housing_yes >  0.50
+|   |   |--- age <= 59.50
+|   |   |   |--- month_sep <= 0.50
+|   |   |   |   |--- campaign <= 4.50
+|   |   |   |   |   |--- pdays <= 461.50
+|   |   |   |   |   |   |--- pdays <= 63.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- pdays >  63.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |--- pdays >  461.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- campaign >  4.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- month_sep >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- age >  59.50
+|   |   |   |--- class: 1
+
+===== Cost-complexity pruning =====
+|--- poutcome_success <= 0.50
+|   |--- age <= 60.50
+|   |   |--- contact_unknown <= 0.50
+|   |   |   |--- month_jun <= 0.50
+|   |   |   |   |--- month_mar <= 0.50
+|   |   |   |   |   |--- month_oct <= 0.50
+|   |   |   |   |   |   |--- month_sep <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |--- month_sep >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |--- month_oct >  0.50
+|   |   |   |   |   |   |--- day <= 20.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |--- day >  20.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |--- month_mar >  0.50
+|   |   |   |   |   |--- campaign <= 5.50
+|   |   |   |   |   |   |--- day <= 23.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- day >  23.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |--- campaign >  5.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- month_jun >  0.50
+|   |   |   |   |--- age <= 24.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- age >  24.50
+|   |   |   |   |   |--- day <= 3.50
+|   |   |   |   |   |   |--- job_blue-collar <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |--- job_blue-collar >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- day >  3.50
+|   |   |   |   |   |   |--- day <= 10.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- day >  10.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |--- contact_unknown >  0.50
+|   |   |   |--- month_apr <= 0.50
+|   |   |   |   |--- month_oct <= 0.50
+|   |   |   |   |   |--- marital_married <= 0.50
+|   |   |   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- marital_married >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- month_oct >  0.50
+|   |   |   |   |   |--- day <= 19.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- day >  19.00
+|   |   |   |   |   |   |--- age <= 52.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  52.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- month_apr >  0.50
+|   |   |   |   |--- class: 1
+|   |--- age >  60.50
+|   |   |--- marital_divorced <= 0.50
+|   |   |   |--- balance <= 174.00
+|   |   |   |   |--- job_self-employed <= 0.50
+|   |   |   |   |   |--- day <= 29.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- day >  29.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- job_self-employed >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- balance >  174.00
+|   |   |   |   |--- balance <= 215.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- balance >  215.50
+|   |   |   |   |   |--- month_aug <= 0.50
+|   |   |   |   |   |   |--- age <= 72.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |--- age >  72.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- month_aug >  0.50
+|   |   |   |   |   |   |--- housing_yes <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |--- housing_yes >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |--- marital_divorced >  0.50
+|   |   |   |--- pdays <= 70.50
+|   |   |   |   |--- age <= 83.50
+|   |   |   |   |   |--- age <= 79.50
+|   |   |   |   |   |   |--- day <= 7.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- day >  7.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- age >  79.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- age >  83.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- pdays >  70.50
+|   |   |   |   |--- day <= 13.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- day >  13.50
+|   |   |   |   |   |--- balance <= 3251.50
+|   |   |   |   |   |   |--- pdays <= 192.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- pdays >  192.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- balance >  3251.50
+|   |   |   |   |   |   |--- class: 1
+|--- poutcome_success >  0.50
+|   |--- housing_no <= 0.50
+|   |   |--- age <= 59.50
+|   |   |   |--- month_sep <= 0.50
+|   |   |   |   |--- campaign <= 4.50
+|   |   |   |   |   |--- pdays <= 83.00
+|   |   |   |   |   |   |--- age <= 43.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- age >  43.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- pdays >  83.00
+|   |   |   |   |   |   |--- pdays <= 94.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- pdays >  94.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |--- campaign >  4.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- month_sep >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- age >  59.50
+|   |   |   |--- class: 1
+|   |--- housing_no >  0.50
+|   |   |--- pdays <= 177.50
+|   |   |   |--- pdays <= 98.50
+|   |   |   |   |--- campaign <= 4.50
+|   |   |   |   |   |--- pdays <= 86.50
+|   |   |   |   |   |   |--- balance <= 5735.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- balance >  5735.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- pdays >  86.50
+|   |   |   |   |   |   |--- previous <= 1.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- previous >  1.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |--- campaign >  4.50
+|   |   |   |   |   |--- balance <= 553.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- balance >  553.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- pdays >  98.50
+|   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |--- pdays <= 112.50
+|   |   |   |   |   |   |--- month_sep <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- month_sep >  0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- pdays >  112.50
+|   |   |   |   |   |   |--- job_self-employed <= 0.50
+|   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- job_self-employed >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |--- class: 0
+|   |   |--- pdays >  177.50
+|   |   |   |--- pdays <= 184.50
+|   |   |   |   |--- month_feb <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- month_feb >  0.50
+|   |   |   |   |   |--- job_admin. <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- job_admin. >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- pdays >  184.50
+|   |   |   |   |--- previous <= 11.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- previous >  11.50
+|   |   |   |   |   |--- class: 0
+
+===== Balanced class weights =====
+|--- poutcome_success <= 0.50
+|   |--- contact_unknown <= 0.50
+|   |   |--- housing_no <= 0.50
+|   |   |   |--- month_jun <= 0.50
+|   |   |   |   |--- month_oct <= 0.50
+|   |   |   |   |   |--- month_mar <= 0.50
+|   |   |   |   |   |   |--- pdays <= 374.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- pdays >  374.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- month_mar >  0.50
+|   |   |   |   |   |   |--- day <= 28.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- day >  28.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- month_oct >  0.50
+|   |   |   |   |   |--- previous <= 5.50
+|   |   |   |   |   |   |--- day <= 16.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- day >  16.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- previous >  5.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- month_jun >  0.50
+|   |   |   |   |--- age <= 28.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- age >  28.50
+|   |   |   |   |   |--- previous <= 2.50
+|   |   |   |   |   |   |--- balance <= 749.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- balance >  749.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- previous >  2.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- housing_no >  0.50
+|   |   |   |--- month_aug <= 0.50
+|   |   |   |   |--- month_jul <= 0.50
+|   |   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |   |--- month_jan <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- month_jan >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |   |--- day <= 16.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- day >  16.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- month_jul >  0.50
+|   |   |   |   |   |--- pdays <= 86.00
+|   |   |   |   |   |   |--- day <= 6.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- day >  6.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- pdays >  86.00
+|   |   |   |   |   |   |--- day <= 4.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- day >  4.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- month_aug >  0.50
+|   |   |   |   |--- campaign <= 1.50
+|   |   |   |   |   |--- pdays <= 83.50
+|   |   |   |   |   |   |--- balance <= 9017.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- balance >  9017.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- pdays >  83.50
+|   |   |   |   |   |   |--- poutcome_other <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- poutcome_other >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- campaign >  1.50
+|   |   |   |   |   |--- day <= 18.50
+|   |   |   |   |   |   |--- age <= 59.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  59.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- day >  18.50
+|   |   |   |   |   |   |--- pdays <= 87.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- pdays >  87.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |--- contact_unknown >  0.50
+|   |   |--- marital_married <= 0.50
+|   |   |   |--- day <= 29.50
+|   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |--- balance <= 3166.50
+|   |   |   |   |   |   |--- balance <= 1619.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- balance >  1619.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- balance >  3166.50
+|   |   |   |   |   |   |--- balance <= 3728.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- balance >  3728.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- day >  29.50
+|   |   |   |   |--- balance <= 2600.00
+|   |   |   |   |   |--- balance <= -9.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- balance >  -9.50
+|   |   |   |   |   |   |--- education_primary <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- education_primary >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- balance >  2600.00
+|   |   |   |   |   |--- class: 1
+|   |   |--- marital_married >  0.50
+|   |   |   |--- month_oct <= 0.50
+|   |   |   |   |--- month_may <= 0.50
+|   |   |   |   |   |--- age <= 33.50
+|   |   |   |   |   |   |--- day <= 17.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- day >  17.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  33.50
+|   |   |   |   |   |   |--- month_sep <= 0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- month_sep >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- month_may >  0.50
+|   |   |   |   |   |--- balance <= 44.50
+|   |   |   |   |   |   |--- job_services <= 0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- job_services >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- balance >  44.50
+|   |   |   |   |   |   |--- age <= 31.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  31.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- month_oct >  0.50
+|   |   |   |   |--- class: 1
+|--- poutcome_success >  0.50
+|   |--- campaign <= 6.50
+|   |   |--- housing_yes <= 0.50
+|   |   |   |--- pdays <= 177.50
+|   |   |   |   |--- pdays <= 98.50
+|   |   |   |   |   |--- pdays <= 86.50
+|   |   |   |   |   |   |--- balance <= 3515.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- balance >  3515.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- pdays >  86.50
+|   |   |   |   |   |   |--- previous <= 1.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- previous >  1.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- pdays >  98.50
+|   |   |   |   |   |--- month_nov <= 0.50
+|   |   |   |   |   |   |--- month_may <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- month_may >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- month_nov >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- pdays >  177.50
+|   |   |   |   |--- pdays <= 184.50
+|   |   |   |   |   |--- month_feb <= 0.50
+|   |   |   |   |   |   |--- job_management <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- job_management >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- month_feb >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- pdays >  184.50
+|   |   |   |   |   |--- previous <= 5.50
+|   |   |   |   |   |   |--- balance <= 2865.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- balance >  2865.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- previous >  5.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- housing_yes >  0.50
+|   |   |   |--- pdays <= 53.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- pdays >  53.50
+|   |   |   |   |--- month_may <= 0.50
+|   |   |   |   |   |--- pdays <= 83.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- pdays >  83.00
+|   |   |   |   |   |   |--- pdays <= 94.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- pdays >  94.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- month_may >  0.50
+|   |   |   |   |   |--- job_technician <= 0.50
+|   |   |   |   |   |   |--- age <= 38.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  38.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- job_technician >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |--- campaign >  6.50
+|   |   |--- class: 0
+

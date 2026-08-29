@@ -1,0 +1,72 @@
+{
+  "dataset_name": "Bank Marketing",
+  "source": "UCI Machine Learning Repository",
+  "source_url": "https://archive.ics.uci.edu/dataset/222/bank",
+  "doi": "10.24432/C5K306",
+  "task": "Binary classification",
+  "prediction_objective": "Predict whether a client will subscribe to a term deposit before contact",
+  "raw_samples": 45211,
+  "processed_samples": 45195,
+  "original_features": 16,
+  "model_features": 15,
+  "numeric_features": [
+    "age",
+    "balance",
+    "day",
+    "campaign",
+    "pdays",
+    "previous"
+  ],
+  "categorical_features": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "target_column_original": "y",
+  "target_column_processed": "target",
+  "class_mapping": {
+    "0": "no",
+    "1": "yes"
+  },
+  "positive_class": "yes",
+  "class_counts": {
+    "no": 39906,
+    "yes": 5289
+  },
+  "class_percentages": {
+    "no": 88.29737802854298,
+    "yes": 11.70262197145702
+  },
+  "missing_values": 0,
+  "unknown_category_counts": {
+    "job": 288,
+    "marital": 0,
+    "education": 1857,
+    "default": 0,
+    "housing": 0,
+    "loan": 0,
+    "contact": 13018,
+    "month": 0,
+    "poutcome": 36943
+  },
+  "duplicates_in_raw_data": 0,
+  "duplicates_after_dropping_duration": 16,
+  "removed_duplicate_rows": 16,
+  "dropped_features": [
+    "duration"
+  ],
+  "preprocessing": [
+    "Removed duration to prevent temporal leakage",
+    "Removed duplicate rows after dropping duration",
+    "Encoded target as no=0 and yes=1",
+    "Kept unknown as an explicit categorical level",
+    "Applied One-Hot Encoding inside each model pipeline",
+    "Used a stratified train/test split"
+  ]
+}

@@ -32,7 +32,7 @@
 ## Cấu trúc
 
 ```text
-group05_base/
+lab2_decision_tree/
 ├── data/
 │   ├── raw/bank-full.csv
 │   └── processed/bank_marketing_processed.csv
@@ -54,33 +54,63 @@ group05_base/
 └── run_demo.ps1
 ```
 
-## Chạy bằng VS Code
+## Cài đặt trên máy thành viên
 
-Mở folder `D:\AI\pj2\group05_base`, chọn Python interpreter:
+Yêu cầu:
 
-```text
-C:\Users\KHOA\anaconda3\python.exe
+- Git.
+- Python 3.10 trở lên.
+- VS Code và extension **Python** của Microsoft nếu chạy bằng VS Code.
+
+Clone repository và đi vào thư mục project:
+
+```powershell
+git clone https://github.com/buikhoa130406/lab2_decision_tree.git
+cd lab2_decision_tree
 ```
 
-Sau đó mở Terminal và chạy:
+Tạo môi trường riêng và cài thư viện trên Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+Trên macOS hoặc Linux:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+## Chạy bằng VS Code
+
+1. Chọn **File → Open Folder** và mở thư mục repository vừa clone.
+2. Nhấn `Ctrl+Shift+P` hoặc `Cmd+Shift+P`.
+3. Chọn **Python: Select Interpreter**.
+4. Chọn interpreter trong `.venv` của project.
+5. Mở Terminal tích hợp của VS Code.
+
+Chạy trên Windows:
 
 ```powershell
 .\run_demo.ps1
 ```
 
-Hoặc:
+Hoặc chạy trực tiếp trên mọi hệ điều hành:
 
-```powershell
-& 'C:\Users\KHOA\anaconda3\python.exe' .\src\main.py
+```text
+python src/main.py
 ```
 
-Trên máy khác:
+Nếu PowerShell chặn script, có thể dùng:
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-python .\src\main.py
+powershell -ExecutionPolicy Bypass -File .\run_demo.ps1
 ```
 
 Một lần chạy đầy đủ có thể mất khoảng 2-3 phút do cross-validation trên hơn 45 nghìn mẫu.
@@ -112,4 +142,3 @@ Vì nhóm ưu tiên F1 của `yes`, **Balanced class weights** là mô hình đ�
 - `unknown` không phải `NaN`; project xem nó là một trạng thái thông tin chưa biết.
 - Không điều chỉnh tham số sau khi nhìn test chỉ để làm đẹp kết quả.
 - Cần điền tên, MSSV, đóng góp thật và diễn đạt báo cáo bằng hiểu biết của nhóm trước khi nộp.
-

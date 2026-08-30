@@ -13,9 +13,10 @@ Thời lượng đề xuất: 60-75 phút.
 ## 2. Chạy demo - 10 phút
 
 ```powershell
-Set-Location 'D:\AI\pj2\group05_base'
 .\run_demo.ps1
 ```
+
+Lệnh được chạy trong Terminal tại thư mục gốc của repository.
 
 Mở lần lượt:
 
@@ -51,4 +52,3 @@ Sử dụng `materials/work_assignment.md`. Mỗi phần phải có code, kết 
 - Xác nhận ba phương pháp cải thiện.
 - Deadline code và report từng thành viên.
 - Người tích hợp, người ghép báo cáo và ngày quay video.
-

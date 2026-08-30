@@ -1,6 +1,6 @@
-# Group05 Base - Bank Marketing Decision Tree
+# Group 05 - Bank Marketing Decision Tree
 
-Đây là bản base hoàn chỉnh cho Lab 2 môn Cơ sở AI, sử dụng **Bank Marketing** từ UCI để dự đoán khách hàng có đăng ký tiền gửi có kỳ hạn hay không.
+Đây là đồ án Lab 2 môn Cơ sở AI của Nhóm 05, sử dụng **Bank Marketing** từ UCI để dự đoán khách hàng có đăng ký tiền gửi có kỳ hạn hay không.
 
 ## Quyết định dữ liệu đã thống nhất
 
@@ -140,5 +140,6 @@ Vì nhóm ưu tiên F1 của `yes`, **Balanced class weights** là mô hình đ�
 
 - Accuracy của mô hình luôn đoán `no` đã khoảng 88,30%; vì vậy không dùng Accuracy làm metric tối ưu chính.
 - `unknown` không phải `NaN`; project xem nó là một trạng thái thông tin chưa biết.
+- Hash chuẩn của dataset raw và cách kiểm tra được ghi tại `data/raw/README.md`.
 - Không điều chỉnh tham số sau khi nhìn test chỉ để làm đẹp kết quả.
 - Cần điền tên, MSSV, đóng góp thật và diễn đạt báo cáo bằng hiểu biết của nhóm trước khi nộp.

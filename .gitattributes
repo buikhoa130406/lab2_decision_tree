@@ -1,0 +1,3 @@
+# Keep dataset bytes identical on every operating system so documented
+# checksums are not changed by Git line-ending conversion.
+data/**/*.csv -text

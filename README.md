@@ -133,7 +133,7 @@ Vì nhóm ưu tiên F1 của `yes`, **Balanced class weights** là mô hình đ�
 - `outputs/metrics/tree_rules.txt`: luật cây dạng text.
 - `outputs/figures/confusion_matrices.png`: Confusion Matrix.
 - `outputs/figures/model_comparison.png`: so sánh metric.
-- `outputs/figures/*_tree_readable.png`: bốn tầng đầu của từng cây.
+- `outputs/figures/*_tree_readable.png`: ba tầng đầu của từng cây với node và chữ được phóng lớn để dễ đọc.
 - `outputs/models/best_model.joblib`: pipeline Balanced Class Weights được chọn bằng CV.
 
 ## Lưu ý

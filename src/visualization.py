@@ -137,13 +137,15 @@ def plot_feature_importance(model: Pipeline) -> None:
 def plot_decision_tree(name: str, model: Pipeline) -> None:
     classifier, feature_names = get_tree_components(model)
     safe_name = name.lower().replace(" ", "_").replace("-", "_")
-    plt.figure(figsize=(28, 14))
+    # Limit the preview to three levels so each node remains readable when the
+    # exported image is fitted to a report page or presentation frame.
+    plt.figure(figsize=(20, 12))
     plot_tree(
         classifier, feature_names=feature_names, class_names=CLASS_NAMES,
         filled=True, rounded=True, proportion=False, precision=2,
-        max_depth=3, fontsize=7,
+        max_depth=2, fontsize=16,
     )
-    plt.title(f"{name} - first four levels")
+    plt.title(f"{name} - first three levels", fontsize=18, pad=16)
     _save_figure(f"{safe_name}_tree_readable.png")
 
 
@@ -163,4 +165,3 @@ def create_all_figures(
     plot_feature_importance(models[selected_model_name])
     for name, model in models.items():
         plot_decision_tree(name, model)
-
